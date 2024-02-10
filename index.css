@@ -1,0 +1,51 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+#container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100%;
+  background-color: #897171;
+}
+h1{
+    margin-top: 70px;
+    color: azure;
+    font-size: 60px;
+}
+.stopwatch {
+  height: 330px;
+  width: 330px;
+  border-radius: 55px;
+  /* background: #be9d9d; */
+  box-shadow: 35px 35px 79px #897171, -35px -35px 79px #f3c9c9;
+  background-image: url(images/background.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+ 
+}
+
+.button{
+    margin-top: 30px;
+    height: 150px;
+    width: 100%;
+    display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.button img{
+    height: 70px;
+    width: auto;
+    margin-left: 20px;
+    cursor: pointer;
+  
+
+
+}
+.button img:nth-child(2){
+    height:90px
+}
